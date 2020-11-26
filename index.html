@@ -21,16 +21,18 @@
         material="color: #9c9c9c"
         >
     </a-entity>
-  
     <a-entity 
-        scale="1 1 1" 
-        rotation="0 0 0" 
+        scale="1 1 1"
         position="0 10 0" 
         geometry="primitive: box;" 
         material="color: #000000"
+        animation="property: rotation;
+      to: 360 720 0;
+      dur: 8000;
+      loop: true;
+      easing: linear;"
         >
     </a-entity>
-  
 <!-- 0 ------------------------------------------------------- -->
     <a-entity 
         scale="-1.5 2 0.3" 
