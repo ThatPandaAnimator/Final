@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
-<audio src="" autoplay loop></audio>
+<audio id="Beat" autoplay loop>
+<source src="Beat.wa">
+</audio>
+<script>
+  let audio = document.getElementById("Beat");
+  audio.volume = 0.5;
+</script>
 <a-scene>
   <a-sky
   color="#4fa1e8"
@@ -10,7 +16,15 @@
     <a-entity 
         scale="-100 .1 100" 
         rotation="0 0 0" 
-        position="0 0 0" 
+        position="0 .5 0" 
+        geometry="primitive: box;" 
+        material="color: #9c9c9c"
+        >
+    </a-entity>
+    <a-entity 
+        scale="-100 .1 100" 
+        rotation="0 0 0" 
+        position="0 5 0" 
         geometry="primitive: box;" 
         material="color: #9c9c9c"
         >
@@ -49,6 +63,105 @@
         material="color: #534032"
         >
     </a-entity>
+<!--1-->
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="-2 4 -2" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2 0.29" 
+        rotation="0 0 0" 
+        position="-2 4 -2" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="2 4 -2" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2.01 0.29" 
+        rotation="0 0 0" 
+        position="2 4 -2" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
+<!--2-->
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="-3.6 2 -2" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2 0.29" 
+        rotation="0 0 0" 
+        position="-3.6 2 -2" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="3.6 2 -2" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2.01 0.29" 
+        rotation="0 0 0" 
+        position="3.6 2 -2" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
+<!--3-->
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="-3.6 4 -2" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2 0.29" 
+        rotation="0 0 0" 
+        position="-3.6 4 -2" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="3.6 4 -2" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2.01 0.29" 
+        rotation="0 0 0" 
+        position="3.6 4 -2" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
 <!-- 1 ------------------------------------------------------- -->
     <a-entity 
         scale="-1.5 2 0.3" 
@@ -78,6 +191,105 @@
         scale="1.6 2.01 0.29" 
         rotation="0 0 0" 
         position="2 2 -4" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
+<!--1-->
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="-2 4 -4" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2 0.29" 
+        rotation="0 0 0" 
+        position="-2 4 -4" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="2 4 -4" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2.01 0.29" 
+        rotation="0 0 0" 
+        position="2 4 -4" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
+<!--2-->
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="-3.6 2 -4" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2 0.29" 
+        rotation="0 0 0" 
+        position="-3.6 2 -4" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="3.6 2 -4" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2.01 0.29" 
+        rotation="0 0 0" 
+        position="3.6 2 -4" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
+<!--3-->
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="-3.6 4 -4" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2 0.29" 
+        rotation="0 0 0" 
+        position="-3.6 4 -4" 
+        geometry="primitive: box;" 
+        material="color: #534032"
+        >
+    </a-entity>
+    <a-entity 
+        scale="-1.5 2 0.3" 
+        rotation="0 0 0" 
+        position="3.6 4 -4" 
+        geometry="primitive: box;" 
+        material="src: Books.jpg;"
+        >
+    </a-entity>
+    <a-entity 
+        scale="1.6 2.01 0.29" 
+        rotation="0 0 0" 
+        position="3.6 4 -4" 
         geometry="primitive: box;" 
         material="color: #534032"
         >
