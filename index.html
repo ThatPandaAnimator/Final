@@ -42,6 +42,7 @@
       to: 40 15 40;
       from: -40 15 -40;
       dur: 8000;
+      dir: alternate;
       loop: true;
       easing: linear;"
         >
@@ -55,6 +56,7 @@
       to: -40 15 -40;
       from: 40 15 40;
       dur: 8000;
+      dir: alternate;
       loop: true;
       easing: linear;"
         >
@@ -68,6 +70,7 @@
       to: 40 15 -40;
       from: -40 15 40;
       dur: 8000;
+      dir: alternate;
       loop: true;
       easing: linear;"
         >
@@ -81,6 +84,7 @@
       to: -40 15 40;
       from: 40 15 -40;
       dur: 8000;
+      dir: alternate;
       loop: true;
       easing: linear;"
         >
@@ -133,14 +137,15 @@
       easing: linear;"
         >
     </a-entity>
-    <a-entity 
+    <a-entity
+        scale="1.5 1.5 1.5"
         position="0 10 -25" 
         geometry="primitive: sphere;" 
-        material="color: #facc00"
+        material="color: #16d4e9"
         animation="property: scale;
-      to: 1 1 1;
-      from: 2 2 2;
-      dur: 8000;
+      to: .5 .5 .5;
+      dur: 4000;
+      dir: alternate;
       loop: true;
       easing: linear;"
         >
